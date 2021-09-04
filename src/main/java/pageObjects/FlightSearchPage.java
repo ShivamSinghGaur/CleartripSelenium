@@ -65,7 +65,7 @@ public class FlightSearchPage extends BaseClass{
 		
 		dateselection.findElements(By.tagName("button")).get(0).click();
 		Thread.sleep(1000);
-		DatePick.dateselection("August 2021","13","November 2021","19");
+		DatePick.dateselection("October 2021","13","December 2021","19");
 	}
 	public void adults() throws InterruptedException {
 		
